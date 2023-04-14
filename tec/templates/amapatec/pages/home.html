@@ -1,5 +1,19 @@
 {% load static %}
 {% include 'amapatec/partials/head.html' %}
 <body>
-    {% include 'amapatec/partials/navbar.html' %}
+    <div class="container-md">
+        {% include 'amapatec/partials/navbar.html' %}
+    </div>
+    <div class="ctn-home d-flex flex-column align-items-center">
+        <img src="{% static 'amapatec/img/homeimg.webp' %}" alt="Snow" style="width:100%;max-height: 944px;filter: brightness(0.4);">
+        <div class="centered">
+            <h1 class="h1-main">Transforme o mundo com a inovação que você cria</h1>
+            <h3 class="mt-3">Associação Amapaense de Tecnologia</h3>
+            <a href="" class="btn btn-info btn-associated mt-4">Quero me associar</a>
+        </div>
+    </div>
+    <div class="container-md mt-5">
+        <div class="text-lines"><h1 class='lines-font me-4'>NOTÍCIAS</h1></div>
+    </div>
+    
 </body>
