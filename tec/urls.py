@@ -1,6 +1,8 @@
 
-from django.urls import path, include
-from tec.views import home
+from django.urls import include, path
+
+from tec.views import home, maintenance
+
 urlpatterns = [
     path('', home),
 ]

@@ -4,16 +4,59 @@
     <div class="container-md">
         {% include 'amapatec/partials/navbar.html' %}
     </div>
-    <div class="ctn-home d-flex flex-column align-items-center">
-        <img src="{% static 'amapatec/img/homeimg.webp' %}" alt="Snow" style="width:100%;max-height: 944px;filter: brightness(0.4);">
-        <div class="centered">
-            <h1 class="h1-main">Transforme o mundo com a inovação que você cria</h1>
-            <h3 class="mt-3">Associação Amapaense de Tecnologia</h3>
-            <a href="" class="btn btn-info btn-associated mt-4">Quero me associar</a>
+    <div class="px-3 text-center text-light d-flex flex-column align-items-center" style="background-image: url('{% static 'amapatec/img/homeimg.webp' %}');background-size: cover; background-position: center; height: 100%;">
+        <div class="space-top"></div>
+        <div class="content-home">
+            <h1 class="mb-4">TRANSFORME O MUNDO COM A INOVAÇÃO QUE VOCÊ CRIA</h1>
+            <h3 class="mb-4">Associação Amapaense de Tecnologia</h3>
+            <a href="" class="fw-bold btn btn-info btn-associated mt-4" id="mtc">Quero me associar</a>
         </div>
+        <div class="space-bottom"></div>
     </div>
     <div class="container-md mt-5">
         <div class="text-lines"><h1 class='lines-font me-4'>NOTÍCIAS</h1></div>
+        <div id="NewsFilter" class="filterBar mt-3 mb-4">
+            <button class="button active" onclick="filterSelection('destaques')"> Destaques</button>
+            <button class="button" onclick="filterSelection('startups')"> Startups</button>
+            <button class="button" onclick="filterSelection('eventos')"> Eventos</button>
+            {% comment %} <button class="button" onclick="filterSelection('filtro3')"> Filtro3</button> {% endcomment %}
+        </div>
+        <div class="row pt-4">
+            <div class="col-sm">
+                <div>
+                    <img class="img-fluid rounded mb-3" src="{% static 'amapatec/img/placeholder-image1.jpg' %}" alt="Noticia Principal">
+                    <span class="mt-3">20/04</span>
+                    <h1 class="mt-3 fw-bold">Titulo da noticia</h1>
+                    <p class="mt-2 fs-5 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="feed">
+                    <span>17/04</span>
+                    <h5 class="mt-2 fw-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                </div>
+                <div class="feed">
+                    <span>10/04</span>
+                    <h5 class="mt-2 fw-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                </div>
+                <div class="feed">
+                    <span>01/04</span>
+                    <h5 class="mt-2 fw-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container-md mt-5">
+        <div class="text-lines"><h1 class='lines-font me-4'>PROGRAMAS</h1></div>
+        
     </div>
     
+    {% include 'amapatec/pages/events-home.html' %}
+
+    <div class="container-md mt-5">
+        <div class="text-lines"><h1 class='lines-font me-4'>PARCEIROS</h1></div>
+        
+    </div>
+    {% include 'amapatec/partials/footer.html' %}
 </body>
