@@ -1,0 +1,44 @@
+{% load static %}
+{% include 'amapatec/partials/head.html' %}
+<body>
+    <div class="container-md">
+        {% include 'amapatec/partials/navbar.html' %}
+    </div>
+    <div class="px-3 mb-3 text-center text-light d-flex flex-column align-items-center bg-body-tertiary" style="background-image: url('{% static 'amapatec/img/beneficios.jpg' %}');background-size: cover; background-position: center; height: 100%;">
+        <div class="mb-5 mt-5"></div>
+        <div class="content-home text-light text-center">
+            <h1 class="mb-4 mt-4">PORTAL DE BENEFÍCIOS</h1>
+            <p>Em nosso portal de benefícios, podem ser encontradas parcerias exclusivas, nos mais diversos segmentos, e que beneficiam startups. Seja muito bem-vindo!</p>
+        </div>
+        <div class="mb-5 mt-5"></div>
+    </div>
+
+    <div class="container-md">
+        <div class="row">
+            <div class="col mb-3 mb-sm-0">
+              <div class="card mb-3 border-light" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img srcset="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849826_960_720.jpg 1x, https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849826_1280.jpg 2x" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">AMAPATEC Startups</h5>
+                      <p class="card-text">Sua empresa se enquadra nas modalidades "Startup" ou "Startup Regular"? E está associada a AMAPTEC? Clique no botão abaixo e acesse seu portal de benefícios.</p>
+                      <a href="" class="btn btn-aptc">ACESSE</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+
+        
+        
+    </div>
+    
+    
+  </div>
+
+    {% include 'amapatec/partials/footer.html' %}
+</body>

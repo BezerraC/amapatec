@@ -1,0 +1,126 @@
+{% load static %}
+{% include 'amapatec/partials/head.html' %}
+<body>
+    <div class="container-md">
+        {% include 'amapatec/partials/navbar.html' %}
+    </div>
+    <div class="px-3 mb-6 text-light d-flex flex-column align-items-center" style="background-image: url('{% static 'amapatec/img/associese.jpg' %}');background-size: cover; background-position: center; height: 100%;">
+        <div class="container-md px-3 mt-5 mb-5">
+            
+            <div class="row justify-content-between mt-5 mb-5">
+                <div class="col-md-6">
+                    <div class="">
+                        <div class="col-md-8">
+                            <h1 class="fw-bold">Transforme seu negócio junto com a associação amapaense de tecnologia</h1>
+                            <h5>Para se associar, basta a empresa ser do Amapá e ter CNAE de tecnologia!</h5>
+                        </div>
+                        
+                        <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+                            <div class="col">
+                              <div class="card bg-body-tertiary d-flex align-items-center opacity-75" >
+                                <div style="width: 40%;">
+                                    <img src="{% static 'amapatec/img/associese/header-negocio.png' %}" class="card-img-top pt-2" alt="...">
+                                </div>
+                                <div class="card-body text-center">
+                                  <p class="card-title fw-bold">OPORTUNIDADES DE NEGÓCIOS</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card bg-body-tertiary d-flex align-items-center opacity-75" >
+                                <div style="width: 40%;">
+                                    <img src="{% static 'amapatec/img/associese/header-evento.png' %}" class="card-img-top pt-2" alt="...">
+                                </div>
+                                
+                                <div class="card-body text-center">
+                                  <p class="card-title fw-bold">EVENTOS DO ECOSSISTEMA</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card bg-body-tertiary d-flex align-items-center opacity-75" >
+                                <div style="width: 40%;">
+                                    <img src="{% static 'amapatec/img/associese/header-plus.png' %}" class="card-img-top pt-2" alt="...">
+                                </div>
+                                <div class="card-body text-center">
+                                  <p class="card-title fw-bold">E MUITO MAIS!<br><br></p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-dark mt-5 mt-sm-0">
+                    <div class="bg-body-tertiary rounded">
+                        <!--<h5>Quero me associar</h5>-->
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwdyB7AB9qKFlMPnp2C6VX1U_Xz1XllnjtbpNveiqEWER_rA/viewform?embedded=true" width="400" height="656" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                        <!---<div class="mb-4 mt-4">
+                            <input type="text" class="form-control" id="nome" placeholder="Nome *">
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" class="form-control" id="email" placeholder="Email *">
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" class="form-control" id="telefone" placeholder="Telefone (Whatsapp) *">
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" class="form-control" id="empresa" placeholder="Empresa *">
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" class="form-control" id="cnpj" placeholder="CNPJ *">
+                        </div>
+                        <div class="mb-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label text-muted" for="gridCheck">
+                                    Eu concordo em receber comunicações.
+                                </label>
+                            </div>
+                            <p class="text-muted">Ao informar meus dados, estou ciente das diretrizes da <a href="/politica-de-privacidade">Política de Privacidade.</a></p>
+                        </div>
+                        <div class="mb-4">
+                            <button type="submit" class="btn btn-info text-light py-3 px-3 w-100" id="mtc">RECEBER CONTATO DA EQUIPE AMAPATEC</button>
+                        </div>-->
+                    </div>
+        
+                </div>
+            </div>
+            
+        </div>
+        <!--<div class="space-top"></div>
+        <div class="content-home">
+            <h1 class="mb-4">TRANSFORME O MUNDO COM A INOVAÇÃO QUE VOCÊ CRIA</h1>
+            <h3 class="mb-4">Associação Amapaense de Tecnologia</h3>
+            <a href="" class="fw-bold btn btn-info btn-associated mt-4" id="mtc">Quero me associar</a>
+        </div>
+        <div class="space-bottom"></div>-->
+
+    </div>
+    <div class="container-md mt-5 mb-6 px-3">
+        <div class="text-lines"><h1 class='lines-font me-4'>NOSSOS DIFERENCIAIS</h1></div>
+        <div class="d-flex flex-column align-items-center">
+            
+            <div class="row flex-column mt-2">
+                <div class="col-sm d-flex flex-sm-row flex-column justify-content-center align-items-center mt-5">
+                    <img class="img-fluid rounded me-5 w-50" src="{% static 'amapatec/img/associese/eventos.jpeg' %}" alt="">
+                    <div class="mt-5 mt-sm-1">
+                        <h3 class="fw-bold">Eventos</h3>
+                        <p class="fs-5 text-muted">Compartilhar conhecimento e estimular o desenvolvimento é um dos nossos principais objetivos. Por isso, seja em formato on-line, híbrido ou presencial, nossos eventos contam com palestrantes gabaritados, cases de sucesso, conteúdos relevantes e muito networking.</p>
+                    </div>
+                </div>
+                <div class="col d-flex flex-sm-row flex-column justify-content-center align-items-center mt-5">
+                    <img class="img-fluid rounded me-5 w-50" src="{% static 'amapatec/img/associese/selo-associados.png' %}" alt="">
+                    <div>
+                        <h3 class="fw-bold">Selo associada</h3>
+                        <p class="fs-5 text-muted">Ser associada à AMAPATEC é fazer parte do maior ecossistema de inovação e tecnologia do estado do Amapá. Com o Selo AMAPATEC presente em suas comunicações, você mostra que faz parte da transformação do setor de tecnologia e inovação do nosso estado.</p>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    
+    {% include 'amapatec/partials/parceiros.html' %}
+
+    {% include 'amapatec/partials/footer.html' %}
+</body>

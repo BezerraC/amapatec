@@ -1,0 +1,147 @@
+{% load static %}
+{% include 'amapatec/partials/head.html' %}
+<body>
+    <div class="container-md">
+        {% include 'amapatec/partials/navbar.html' %}
+    </div>
+    <div class="px-3 mb-3 text-center text-light d-flex flex-column align-items-center bg-body-tertiary" style="background-image: url('{% static 'amapatec/img/agenda.jpg' %}');background-size: cover; background-position: center; height: 100%;">
+        <div class="mb-5 mt-5"></div>
+        <div class="content-home text-light text-center">
+            <h1 class="mb-4 mt-4">AGENDA DE EVENTOS</h1>
+        </div>
+        <div class="mb-5 mt-5"></div>
+    </div>
+    
+
+    <div class="container-md mt-5 mb-6 px-3">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="{% static 'amapatec/img/eventos/conecta+gov.png' %}" class="card-img-top" alt="..." style="height: 16rem">
+              <div class="card-body text-center">
+                  <h5 class="card-title fw-bold bg-aptc py-3 rounded text-light">21 | Junho</h5>
+                  <p class="card-text fw-bold mt-3">Conecta + Gov</p>
+                  <p class="card-text mb-4 text-muted"><span><i class="fa fa-map-marker me-2 "></i></span>
+                    Macapá(AP)</p>
+                  <a href="#" class="btn btn-aptc fw-bold py-3 px-4 mb-3"><i class="fa fa-plus me-2 "></i>SAIBA MAIS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="{% static 'amapatec/img/eventos/feira-empregabilidade.jpg' %}" class="card-img-top" alt="..." style="height: 16rem">
+              <div class="card-body text-center">
+                  <h5 class="card-title fw-bold bg-aptc py-3 rounded text-light">03 | Junho</h5>
+                  <p class="card-text fw-bold mt-3">Feira da empregabilidade</p>
+                  <p class="card-text mb-4 text-muted"><span><i class="fa fa-map-marker me-2 "></i></span> Auditório da Fecomércio -
+                    Macapá(AP)</p>
+                  <a href="https://www.sympla.com.br/evento/1-feira-de-empregabilidade/1952359" class="btn btn-aptc fw-bold py-3 px-4 mb-3"><i class="fa fa-plus me-2 "></i>SAIBA MAIS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="{% static 'amapatec/img/eventos/alap-assembleia-legislativa-do-estado-do-amapa.png' %}" class="card-img-top" alt="..." style="height: 16rem">
+              <div class="card-body text-center">
+                  <h5 class="card-title fw-bold bg-aptc py-3 rounded text-light">30 | Maio</h5>
+                  <p class="card-text fw-bold mt-3">Audiência das Startups</p>
+                  <p class="card-text mb-4 text-muted"><span><i class="fa fa-map-marker me-2 "></i></span> Assembleia Legislativa -
+                    Macapá(AP)</p>
+                  <a href="#" class="btn btn-aptc fw-bold py-3 px-4 mb-3"><i class="fa fa-plus me-2 "></i>SAIBA MAIS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="{% static 'amapatec/img/eventos/workshop-pitch-canvas.jpeg' %}" class="card-img-top" alt="..." style="height: 16rem">
+              <div class="card-body text-center">
+                  <h5 class="card-title fw-bold bg-aptc py-3 rounded text-light">26 | Maio</h5>
+                  <p class="card-text fw-bold mt-3">Oficina de Pitch Canvas com Fernando Seabra</p>
+                  <p class="card-text mb-4 text-muted"><span><i class="fa fa-map-marker me-2 "></i></span> Sede do Sebrae -
+                    Macapá(AP)</p>
+                  <a href="https://forms.gle/5NrVXZhrxnjTYyqz9" class="btn btn-aptc fw-bold py-3 px-4 mb-3"><i class="fa fa-plus me-2 "></i>SAIBA MAIS</a>
+              </div>
+            </div>
+          </div>
+            <div class="col">
+              <div class="card">
+                <img src="{% static 'amapatec/img/eventos/startupday.png' %}" class="card-img-top" alt="..." style="height: 16rem">
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold bg-aptc py-3 rounded text-light">27 | Maio</h5>
+                    <p class="card-text fw-bold mt-3">Startup Day</p>
+                    <p class="card-text mb-4 text-muted"><span><i class="fa fa-map-marker me-2 "></i></span> Sebrae -
+                      Macapá(AP)</p>
+                    <a href="https://www.sympla.com.br/startup-day-macapa-2023__1988417" class="btn btn-aptc fw-bold py-3 px-4 mb-3"><i class="fa fa-plus me-2 "></i>SAIBA MAIS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="{% static 'amapatec/img/eventos/sebraelikeaboss.jpeg' %}" class="card-img-top" alt="..." style="height: 16rem">
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold bg-aptc py-3 rounded text-light">27 | Maio</h5>
+                    <p class="card-text fw-bold mt-3">Sebrae Like a Boss</p>
+                    <p class="card-text mb-4 text-muted"><span><i class="fa fa-map-marker me-2 "></i></span> Sebrae -
+                      Macapá(AP)</p>
+                    <a href="https://bit.ly/sebraelikeaboss-2023" class="btn btn-aptc fw-bold py-3 px-4 mb-3"><i class="fa fa-plus me-2 "></i>SAIBA MAIS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="{% static 'amapatec/img/eventos/sinapsebio.jpeg' %}" class="card-img-top" alt="..." style="height: 16rem">
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold bg-aptc py-3 rounded text-light">19 | Maio</h5>
+                    <p class="card-text fw-bold mt-3">Lançamento do Sinapse da Bioeconomia</p>
+                    <p class="card-text mb-4 text-muted"><span><i class="fa fa-map-marker me-2 "></i></span> Senai -
+                      Macapá(AP)</p>
+                    <a href="https://www.bit.ly/SinapsebioMacapa" class="btn btn-aptc fw-bold py-3 px-4 mb-3"><i class="fa fa-plus me-2 "></i>SAIBA MAIS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="{% static 'amapatec/img/eventos/webinar-start-ifapiano.jpeg' %}" class="card-img-top" alt="..." style="height: 16rem">
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold bg-aptc py-3 rounded text-light">18 | Maio</h5>
+                    <p class="card-text fw-bold mt-3">Webinar: Start Ifapiano</p>
+                    <p class="card-text mb-4 text-muted"><span><i class="fa fa-map-marker me-2 "></i></span> Google Meet -
+                      Macapá(AP)</p>
+                    <a href="https://meet.google.com/gjs-irgc-apo" class="btn btn-aptc fw-bold py-3 px-4 mb-3"><i class="fa fa-plus me-2 "></i>SAIBA MAIS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="{% static 'amapatec/img/eventos/StartupON.png' %}" class="card-img-top" alt="..." style="height: 16rem">
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold bg-aptc py-3 rounded text-light">29 | Abril</h5>
+                    <p class="card-text fw-bold mt-3">Startup ON</p>
+                    <p class="card-text mb-4 text-muted"><span><i class="fa fa-map-marker me-2 "></i></span> SENAC -
+                      Macapá(AP)</p>
+                    <a href="htpps://www.bit.ly/WorkshopMacapa2023" class="btn btn-aptc fw-bold py-3 px-4 mb-3"><i class="fa fa-plus me-2 "></i>SAIBA MAIS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="{% static 'amapatec/img/eventos/encontrodecomunidades.jpg' %}" class="card-img-top" alt="..." style="height: 16rem">
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold bg-aptc py-3 rounded text-light">28 | Abril</h5>
+                    <p class="card-text fw-bold mt-3">Encontro de comunidades </p>
+                    <p class="card-text mb-4 text-muted"><span><i class="fa fa-map-marker me-2 "></i></span> Amazoom Coworking
+                      - Macapá(AP)</p>
+                    <a href="#" class="btn btn-aptc fw-bold py-3 px-4 mb-3"><i class="fa fa-plus me-2 "></i>SAIBA MAIS</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+   
+
+
+   
+    
+    {% include 'amapatec/partials/footer.html' %}
+</body>

@@ -1,0 +1,184 @@
+{% load static %}
+{% include 'amapatec/partials/head.html' %}
+<body>
+    <div class="container-md">
+        {% include 'amapatec/partials/navbar.html' %}
+    </div>
+    <div class="px-3 mb-3 text-center text-light d-flex flex-column align-items-center bg-body-tertiary" style="background-image: url('{% static 'amapatec/img/associados.jpg' %}');background-size: cover; background-position: center; height: 100%;">
+        <div class="mb-5 mt-5"></div>
+        <div class="content-home text-light text-center">
+            <h1 class="mb-4 mt-4">ASSOCIADOS</h1>
+            <a href="/associe-se" class="fw-bold btn btn-info btn-associated mt-4" id="mtc">Quero me associar</a>
+        </div>
+        <div class="mb-5 mt-5"></div>
+    </div>
+
+    <div class="container-md mt-5 mb-6 px-3">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card border-light-subtle ">
+                <div class="d-flex align-items-center" style="height: 18rem;">
+                    <img src="{% static 'amapatec/img/associados/proesc.png' %}" class="card-img-top px-2 py-2" alt="...">
+                </div>
+                <div class="card-body bg-body-tertiary d-flex flex-column justify-content-evenly" style="height: 18rem;">
+                  <h3 class="card-title text-uppercase fw-bold">Proesc.com</h3>
+                  <p class="card-text text-muted mt-3 ">O Proesc foi desenvolvido para simplificar os processos administrativos, pedagógicos e financeiros da sua instituição de ensino.</p>
+                  <a href="https://proesc.com/" target="_blank" type="button" class="btn btn-aptc py-2">+ Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-light-subtle">
+                <div class="d-flex align-items-center"  style="height: 18rem;">
+                    <img src="{% static 'amapatec/img/associados/assinadoc-logo.png' %}" class="card-img-top px-2 py-2" alt="..." >
+                </div>
+                <div class="card-body bg-body-tertiary d-flex flex-column justify-content-evenly" style="height: 18rem;">
+                  <h3 class="card-title text-uppercase fw-bold">Assinadoc</h3>
+                  <p class="card-text text-muted mt-3 ">Gerencie todos os seus documentos de forma segura, prática e colaborativa e solicite assinaturas para clientes e parceiros pelo celular!</p>
+                  <a href="https://assinadoc.com/" target="_blank" type="button" class="btn btn-aptc py-2">+ Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-light-subtle">
+                <div class="d-flex align-items-center"   style="height: 18rem;">
+                    <img src="{% static 'amapatec/img/associados/logo-tributei.webp' %}" class="card-img-top px-2 py-2" alt="...">
+                </div>
+                <div class="card-body bg-body-tertiary d-flex flex-column justify-content-evenly" style="height: 18rem;">
+                  <h3 class="card-title text-uppercase fw-bold">Tributei</h3>
+                  <p class="card-text text-muted mt-3 ">Você gasta muito tempo calculando e gerando guias do ICMS-ST e DIFAL das notas de compra? Conheça a solução de automação fiscal do Tributei</p>
+                  <a href="https://tributei.net/" target="_blank" type="button" class="btn btn-aptc py-2">+ Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card border-light-subtle">
+                  <div class="d-flex align-items-center" >
+                      <img src="{% static 'amapatec/img/associados/levamais-logo.jpg' %}" class="card-img-top px-2 py-2" alt="..." style="height: 18rem;">
+                  </div>
+                  <div class="card-body bg-body-tertiary d-flex flex-column justify-content-evenly" style="height: 18rem;">
+                    <h3 class="card-title text-uppercase fw-bold">Leva+</h3>
+                    <p class="card-text text-muted mt-3 ">A Leva+ é uma empresa que conecta passageiros aéreos com interessados em enviar encomendas de um aeroporto para outro.
+                    </p>
+                    <a href="https://levamais.co/" target="_blank" type="button" class="btn btn-aptc py-2">+ Saiba Mais</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+              <div class="card border-light-subtle">
+                <div class="d-flex align-items-center" >
+                    <img src="{% static 'amapatec/img/associados/tuxtu-logo.jpeg' %}" class="card-img-top px-2 py-2" alt="..." style="height: 18rem;">
+                </div>
+                <div class="card-body bg-body-tertiary d-flex flex-column justify-content-evenly" style="height: 18rem;">
+                  <h3 class="card-title text-uppercase fw-bold">Tuxtu</h3>
+                  <p class="card-text text-muted mt-3 ">O SIBLAM é um sistema prático com soluções de fácil organização e segurança, tenha em mãos todas as ferramentas que você precisa para a sua empresa
+                  </p>
+                  <a href="https://tuxtu.com.br/" target="_blank" type="button" class="btn btn-aptc py-2">+ Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-light-subtle">
+                <div class="d-flex align-items-center" >
+                    <img src="{% static 'amapatec/img/associados/revpay-logo.png' %}" class="card-img-top px-2 py-2" alt="..." style="height: 18rem;">
+                </div>
+                <div class="card-body bg-body-tertiary d-flex flex-column justify-content-evenly" style="height: 18rem;">
+                  <h3 class="card-title text-uppercase fw-bold">RevPay</h3>
+                  <p class="card-text text-muted mt-3 ">Relacionamento de crédito para impactar e empoderar revendedoras brasileira a alcançarem sua independência financeira.
+                  </p>
+                  <a href="https://www.revpay.com.br/" target="_blank" type="button" class="btn btn-aptc py-2">+ Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-light-subtle">
+                <div class="d-flex align-items-center" >
+                    <img src="{% static 'amapatec/img/associados/engenho-logo.webp' %}" class="card-img-top px-2 py-2" alt="..." style="height: 18rem;">
+                </div>
+                <div class="card-body bg-body-tertiary d-flex flex-column justify-content-evenly" style="height: 18rem;">
+                  <h3 class="card-title text-uppercase fw-bold">Engenho Cafe de Açai</h3>
+                  <p class="card-text text-muted mt-3 ">A empresa reutiliza o caroço do açaí como uma alternativa na produção de bebida aromática.
+                  </p>
+                  <a href="https://www.engenhocafedeacai.com/" target="_blank" type="button" class="btn btn-aptc py-2">+ Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-light-subtle">
+                <div class="d-flex align-items-center" >
+                    <img src="{% static 'amapatec/img/associados/bactolac-logo.jpg' %}" class="card-img-top px-2 py-2" alt="..." style="height: 18rem;">
+                </div>
+                <div class="card-body bg-body-tertiary d-flex flex-column justify-content-evenly" style="height: 18rem;">
+                  <h3 class="card-title text-uppercase fw-bold">Bactolac</h3>
+                  <p class="card-text text-muted mt-3 ">A empresa propõe o uso de probióticos autóctones para alcançar um manejo ambientalmente saudável assegurando padrões de produção sustentáveis.
+                  </p>
+                  <a href="https://www.instagram.com/bacto.lac/" target="_blank" type="button" class="btn btn-aptc py-2">+ Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-light-subtle">
+                <div class="d-flex align-items-center" >
+                    <img src="{% static 'amapatec/img/associados/eadstation-logo.jpg' %}" class="card-img-top px-2 py-2" alt="..." style="height: 18rem;">
+                </div>
+                <div class="card-body bg-body-tertiary d-flex flex-column justify-content-evenly" style="height: 18rem;">
+                  <h3 class="card-title text-uppercase fw-bold">EADStation</h3>
+                  <p class="card-text text-muted mt-3 ">A EAD Station é uma plataforma de EAD para você criar sua Universidade Corporativa de cursos e treinamentos online.
+                  </p>
+                  <a href="https://eadstation.com/" target="_blank" type="button" class="btn btn-aptc py-2">+ Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-light-subtle">
+                <div class="d-flex align-items-center" >
+                    <img src="{% static 'amapatec/img/associados/7g7-logo.png' %}" class="card-img-top px-2 py-2" alt="..." style="height: 18rem;">
+                </div>
+                <div class="card-body bg-body-tertiary d-flex flex-column justify-content-evenly" style="height: 18rem;">
+                  <h3 class="card-title text-uppercase fw-bold">7g7 marketing</h3>
+                  <p class="card-text text-muted mt-3 ">A missão da 7g7 Market é democratizar o Marketing. A 7g7 conecta empresas com profissionais de Marketing e Vendas que oferecem serviços digitais em mais de ...
+                  </p>
+                  <a href="https://www.7g7market.com/" target="_blank" type="button" class="btn btn-aptc py-2">+ Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-light-subtle">
+                <div class="d-flex align-items-center" >
+                    <img src="{% static 'amapatec/img/associados/druget-logo.jpg' %}" class="card-img-top px-2 py-2" alt="..." style="height: 18rem;">
+                </div>
+                <div class="card-body bg-body-tertiary d-flex flex-column justify-content-evenly" style="height: 18rem;">
+                  <h3 class="card-title text-uppercase fw-bold">Druget</h3>
+                  <p class="card-text text-muted mt-3 ">Realizamos análise computacional para a seleção das moléculas mais promissoras para a sua solução laboratorial. Nosso intuito é diminuir o tempo e valor ...
+                  </p>
+                  <a href="https://druget.com.br/" target="_blank" type="button" class="btn btn-aptc py-2">+ Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-light-subtle">
+                <div class="d-flex align-items-center" >
+                    <img src="{% static 'amapatec/img/associados/logo-devlink.png' %}" class="card-img-top px-2 py-2" alt="..." style="height: 18rem;">
+                </div>
+                <div class="card-body bg-body-tertiary d-flex flex-column justify-content-evenly" style="height: 18rem;">
+                  <h3 class="card-title text-uppercase fw-bold">DevLink</h3>
+                  <p class="card-text text-muted mt-3 ">Startup que conecta desenvolvedores freelancers novéis com empresas que procuram talentos em tecnologia.
+                  </p>
+                  <a href="https://www.instagram.com/devlink.ap/" target="_blank" type="button" class="btn btn-aptc py-2">+ Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+            
+              
+          </div>
+    </div>
+    
+  </div>
+
+   
+
+
+   
+    
+    {% include 'amapatec/partials/footer.html' %}
+</body>
