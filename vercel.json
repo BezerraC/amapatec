@@ -8,7 +8,7 @@
     "routes": [
     {
     "src": "tec/static/(.*)",
-    "dest": "tec/static/$1"
+    "dest": "tec/static/"
     },
     {
     "src": "/(.*)",
