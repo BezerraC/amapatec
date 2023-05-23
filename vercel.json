@@ -1,18 +1,25 @@
 {
     "builds": [
-    {
-    "src": "amapa/wsgi.py",
-    "use": "@vercel/python"
-    }
+        {
+        "src": "amapa/wsgi.py",
+        "use": "@vercel/python"
+        },
+        {
+        "src": "build_files.sh",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "staticfiles_build"
+        }
+        }
     ],
-    "routes": [
-    {
-    "src": "tec/static/(.*)",
-    "dest": "tec/static/"
-    },
-    {
-    "src": "/(.*)",
-    "dest": "amapa/wsgi.py"
+        "routes": [
+        {
+        "src": "/static/(.*)",
+        "dest": "/static/$1"
+        },
+        {
+        "src": "/(.*)",
+        "dest": "amapa/wsgi.py"
     }
     ]
 }
